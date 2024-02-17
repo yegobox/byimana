@@ -1,0 +1,131 @@
+.Alumni-hero {
+  height: 90vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 32, 58, 0.363)), to(rgba(13, 32, 58, 0.363))), url(../WhatsAppImages/AlumniHero.jpg);
+  background-image: linear-gradient(rgba(13, 32, 58, 0.363), rgba(13, 32, 58, 0.363)), url(../WhatsAppImages/AlumniHero.jpg);
+  background-size: cover;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Alumni-hero .Bssherotext {
+  position: Absolute;
+  margin-top: 150px;
+}
+
+.Alumni-hero .Bssherotext h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.Alumni-hero .Bssherotext h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 250;
+  line-height: 30px;
+}
+
+.Alumni-info {
+  background-color: #fff;
+}
+
+.Alumni-info .image-container img {
+  width: 100%;
+}
+
+.Alumni-info .WhatisAlumni {
+  background-color: #fff;
+  padding: 0px 10px;
+}
+
+.Alumni-info .AlumniFound {
+  background-color: aqua;
+}
+
+.Alumni-info .blue {
+  background-color: #013361;
+}
+
+.jumbotron {
+  border-radius: 0px !important;
+}
+
+.trial {
+  margin-bottom: 0px;
+}
+
+.white {
+  color: #ffff;
+}
+
+.Alumnii {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.Alumnii:hover {
+  -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 5px 5px -1px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.14), 0 5px 5px -1px rgba(0, 0, 0, 0.12);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn-alumni {
+  background-color: #013361;
+  border-radius: 0px;
+  margin-top: 3vh;
+  color: #fff;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  font-weight: 500;
+}
+
+.btn-alumni:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background-color: #fff;
+  border: 1px solid #013361;
+  color: #013361;
+}
+
+.EventGrid #AlumnEvent1 {
+  background-image: url(../WhatsAppImages/Alumni4.jpg);
+}
+
+.EventGrid #AlumnEvent2 {
+  background-image: url(../WhatsAppImages/musengimana_sylvestre_uhagarariye_ababyeyi_barerera_muri_iki_kigo.jpg);
+}
+
+.EventGrid #AlumnEvent3 {
+  background-image: url(../WhatsAppImages/ry6b4992-2jp93eb-9ab04.jpg);
+}
+
+.EventGrid #AlumnEvent4 {
+  background-image: url(../WhatsAppImages/ry6b4946jpg-a600-e19ba.jpg);
+}
+
+.EventGrid #AlumnEvent5 {
+  background-image: url(../WhatsAppImages/habayeho_iki3c23-d8c9e.jpg);
+}
+
+.EventGrid .columns-small {
+  height: 300px;
+  background-size: cover;
+  border: 2px solid white;
+}
+
+.EventGrid .columns-large {
+  height: 400px;
+  border: 2px solid white;
+  background-size: cover;
+}
+/*# sourceMappingURL=Alumni.css.map */

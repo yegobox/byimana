@@ -1,0 +1,224 @@
+.academicshero {
+  height: 90vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 32, 58, 0.418)), to(rgba(13, 32, 58, 0.349))), url(../WhatsAppImages/pcbstudent.png);
+  background-image: linear-gradient(rgba(13, 32, 58, 0.418), rgba(13, 32, 58, 0.349)), url(../WhatsAppImages/pcbstudent.png);
+  background-size: cover;
+}
+
+.academicshero .academics-title {
+  color: #fff;
+  margin-top: 18vh;
+}
+
+.academicshero h1 {
+  font-weight: 200;
+}
+
+.academicshero p {
+  color: #fff;
+}
+
+#Title {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Title #title-title {
+  margin-top: 20px;
+}
+
+#Title h2 {
+  margin-top: -15px;
+}
+
+#Title img {
+  height: 100px;
+}
+
+#Title .col-xs-4 h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#Title .exceptional {
+  background-color: #013361;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #ffca57;
+}
+
+#Title .exceptional p {
+  color: #fff;
+}
+
+#Title .exceptional h2 {
+  color: #fcd582;
+}
+
+#Title .exceptional h3 {
+  color: #ffca57;
+}
+
+#Title .exceptional .col-md-4 .lead {
+  font-size: 20px;
+}
+
+#Title .exceptional .col-md-4 .m-2 {
+  margin-top: 10px;
+}
+
+#Title #firstdesc {
+  border-bottom: 1px solid;
+}
+
+#Title #lastdesc {
+  border-bottom: 1px solid;
+}
+
+#Title #latestdesc {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+#Title #middledesc {
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+@media screen and (max-width: 1200px) {
+  #Title #middledesc {
+    border: none;
+  }
+  #Title #latestdesc {
+    border: none;
+  }
+  #Title #lastdesc {
+    border: none;
+  }
+  #Title #firstdesc {
+    border: none;
+  }
+}
+
+.combinations {
+  margin-top: 20px;
+}
+
+.combinations h2 {
+  font-size: 40px;
+}
+
+.combinations .col-md-3 {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.combinations .col-md-3 #mpc {
+  background-color: #013361;
+}
+
+.combinations .col-md-3 #mpc h1 {
+  color: white;
+}
+
+.combinations .col-md-3 #mpc h4 {
+  color: #fff;
+}
+
+.combinations .col-md-3 #pcm {
+  background-color: white;
+  border: 1px solid #e29b02;
+}
+
+.combinations .col-md-3 #pcm h1 {
+  color: #e29b02;
+}
+
+.combinations .col-md-3 #pcm h4 {
+  color: #e29b02;
+}
+
+.combinations .col-md-3 #mcb {
+  background-color: white;
+  border: 1px solid;
+}
+
+.combinations .col-md-3 #pcb {
+  background-color: #013361;
+}
+
+.combinations .col-md-3 #pcb h1 {
+  color: #ffca57;
+}
+
+.combinations .col-md-3 #pcb h4 {
+  color: #ffca57;
+}
+
+.combinations .col-md-3 .card-academic {
+  background-color: #cecece;
+  padding: 10px;
+}
+
+.combinations .col-md-3 .card-academic .cardheader {
+  padding: 10px;
+}
+
+.combinations .col-md-3 .card-academic .cardheader h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.facilities {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 32, 58, 0.548)), to(rgba(13, 32, 58, 0.534))), url(../WhatsAppImages/facilities1.png);
+  background-image: linear-gradient(rgba(13, 32, 58, 0.548), rgba(13, 32, 58, 0.534)), url(../WhatsAppImages/facilities1.png);
+  background-size: cover;
+}
+
+.facilities h2 {
+  color: #ffca57;
+}
+
+.facilities h3 {
+  color: #ffca57;
+}
+
+.facilities h5 {
+  color: white;
+  font-size: medium;
+  line-height: normal;
+  font-weight: 200;
+}
+
+.facilities p {
+  color: #fff;
+  font-weight: 400;
+}
+
+.with-margin {
+  margin-top: 20px;
+}
+
+.row-padded {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.facilities-gallery img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+  padding: 0px;
+}
+
+.facilities-gallery .col-md-4 {
+  padding: 2px;
+}
+
+.facilities-gallery .with-margin-bottom {
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=Academics.css.map */

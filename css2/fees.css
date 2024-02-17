@@ -1,0 +1,79 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.number {
+    font-weight: bold;
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
+    color: black;
+}
+.card-body img{
+    height: 20vh;
+}
+.card-body button{
+   width: 100%;
+   margin-top: 12px;
+   margin-bottom: 5px;
+   background-color: rgb(98, 102, 105);
+   border: 0px ;
+   padding: 10px;
+   border-radius: 5px ;
+   color: #fff;
+   transition: 0.25s;
+}
+.card-body button:hover{
+   background-color: #03071e;
+   transition: 0.25s;
+   color: #fff;
+ }
+
+.li {
+    background-color: #e85d04;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 3px;
+}
+
+h4 {
+    color: white;
+}
+
+.holder {
+    background-color: #03071e;
+}
+.focus {
+    background-color: #af0012;
+    color: white;
+    font-weight: bold;
+}
+.change::selection {
+    color: white;
+    background-color: #013361;
+}
+
+.text {
+    color: white;
+    margin-right: 3px;
+    font-weight: bold;
+}
+.holder{
+    height: 40px;
+    padding: 10px;
+    overflow: hidden;
+}
+.border{
+    border: 1px solid rgba(179, 178, 178, 0.125);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0.02rem 1px 0.001rem rgb(187, 187, 187);
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.pricing-card-title{
+    margin-top: 20px;
+}
+.line{
+    margin: 0px;
+    margin-bottom: 50px;
+}
