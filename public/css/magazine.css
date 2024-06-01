@@ -1,0 +1,31 @@
+body{
+    overflow-x: hidden;
+    background:#ccc;
+}
+#magazine{
+    transform: translateX(60px);
+    width:1152px;
+    height:700px;
+}
+#magazine .turn-page{
+    border-radius: 5px;
+    background-color:#ccc;
+    background-size:100% 100%;
+}
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    width: 40%;
+}
+nav {
+    background-color: white;
+}
+
+.hero-two {
+    position: absolute;
+    top: 28%;
+    left: 700px;
+    z-index: -1;
+    width: 40%;
+}

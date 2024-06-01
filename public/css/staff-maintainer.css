@@ -1,0 +1,126 @@
+
+
+
+
+.navigation-buttons{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-380%);
+}
+
+.prev {
+    cursor: pointer;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-100%);
+    transform: translateX(-100%);
+    width: auto;
+    padding: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: none;
+    border-radius: 2.5%; 
+    transition: background-color 0.3s; 
+}
+
+.next {
+    cursor: pointer;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-100%);
+    transform: translateX(100%);
+    width: auto;
+    padding: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.265); 
+    border: none;
+    border-radius: 2.5%; 
+    transition: background-color 0.3s; 
+}
+
+
+.prev:hover,
+.next:hover {
+  transition: .3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.747); 
+}
+.staff-card #campus-minister{
+    background-image: url(../images/Campus\ minister.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .princmessage{
+    padding: 50px;
+  }
+  .princmessage em{
+    float: right;
+    font-size: medium;
+  }
+  .staff-card.camp{
+    margin-left: 50px;
+  }
+
+/* Styles for hover effect */
+.img {
+  position: relative; 
+  overflow: hidden; 
+  z-index: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%; 
+  height: 200%;
+  background: radial-gradient(circle, rgba(54, 98, 230, 0.21) 0%, rgba(54, 98, 230, 0) 100%);
+  /* background: #3662e636; */
+  transform: translate(-50%, -50%) scale(0); 
+  transition: transform 0.3s ease-in-out; 
+  z-index: 1;
+}
+
+.img:hover::before {
+  transform: translate(-50%, -50%) scale(1); 
+}
+.work_img_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+
+.card-body:hover {
+  transform: scale(1.05);
+}
+.mail-with-star,
+.camera {
+  opacity: 0;
+  margin: 10px;
+  font-size: 30px;
+  transform: translateY(300%);
+  color: hwb(219 12% 7%);
+  cursor: pointer; 
+}
+
+
+#principal,#campus-minister, #DeanDiscipline, #DeanStudies, #bursaresc, #secesc, #anim1, #anim2, #anim3, #anim4 {
+  justify-content: center;
+  text-align: center;
+}
+
+
+

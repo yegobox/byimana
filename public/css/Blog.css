@@ -1,0 +1,28 @@
+.blog-entry, .event-entry {
+    margin-bottom: 30px;
+    text-align: center; /* Center-align text for uniformity */
+}
+
+.blog-events-container {
+    margin: 0 1rem;
+}
+
+.blog-entry img, .event-entry img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Ensure images don't get too large */
+    max-height: 300px; /* Ensure images don't get too large */
+    object-fit: cover; /* Ensure images maintain aspect ratio and fill the square */
+    border-radius: 5px 5px 0 0; /* Optional: add rounded corners */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-entry .desc, .event-entry .desc {
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    text-align: left; /* Ensure text aligns properly within description box */
+}

@@ -1,0 +1,134 @@
+#testimonal_part{
+    padding: 73px 0 80px;
+    background: #fff;
+    padding-bottom: 75px;
+    color: #ffffff;
+}
+
+.section_head p {
+    padding: 30px 0;
+}
+.section_head h2 {
+    color: #ffffff;
+}
+.section_head.skill_head h2 span{
+    color: #ffffff
+}
+.testimonal_content {
+    position: relative;
+}
+.client_testi .slick-dots li.slick-active button{
+    background: #1D75DB
+}
+.client_testi .slick-dots li button{
+    border-color: #1D75DB !important
+}
+.client_testi .slick-dots {
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.client_testi .slick-dots li {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.client_testi .slick-dots li button {
+    padding: 2px;
+    display: block;
+    height: 13px;
+    width: 13px;
+    text-align: center;
+    line-height: 13px;
+    border-radius: 50%;
+    background: transparent;
+    color: transparent;
+    border: 1px solid;
+}
+
+.client_testi .slick-dots li button:focus {
+    outline: 0;
+}
+.member_img {
+    padding: 43px 43px 0;
+}
+
+.member_img img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    background-color: #1D75DB;
+}
+.member_info {
+    padding: 40px 0 0 10px;
+}
+
+.member_info h3 {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.member_info h4 {
+    padding: 15px 0;
+    position: relative;
+    color: #ffffff;
+}
+
+.member_info h4::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 60px;
+    left: 0;
+    bottom: 0;
+}
+
+.member_info p {
+    padding: 25px 0 20px;
+    max-width: 555px;
+}
+
+.member_info ul li {
+    display: inline-block;
+    margin: 0 10px
+}
+
+.member_info ul li:first-child {
+    margin-left: 0;
+}
+
+.member_info ul li a i {
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid;
+}
+
+.member_info ul li a:hover i {
+    background: transparent;
+}
+.client_testi_item {
+    display: none;
+}
+.client_testi_item.active {
+    display: block;
+}
+
+#testimonal_part {
+    padding: 73px 0 80px;
+    padding-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
