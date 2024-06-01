@@ -1,0 +1,67 @@
+/* Principle's message collapse styles*/
+
+.collapse-description {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    margin-bottom: 20px;
+}
+.collapse-description.expanded {
+    height: 500px;
+    transition: height 0.5s ease;
+}
+.read-more {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -25px;
+    background-color: #013361;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.PrincipleMessage .col-md-8 {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+.PrincipleMessage .col-md-8.expanded {
+    height: auto;
+}
+.PrincipleMessage .read-more {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #013361;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.PrincipleMessage .read-more:hover {
+    background-color: #0056b3;
+}
+
+
+/* Announcements collapse styles */
+
+
+.description {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    margin-bottom: 20px;
+}
+.description.expanded {
+    height: auto;
+    transition: height 0.5s ease;
+}

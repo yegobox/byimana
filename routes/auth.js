@@ -25,9 +25,9 @@ router.post('/login', async (req, res) => {
     if (!isMatch) throw Error('Invalid credentials');
 
     const token = jwt.sign({ id: user._id }, '110197,wda', { expiresIn: 3600 });
-    if (!token) throw Error('Couldnt sign the token');
+    if (!token) throw Error("Couldn't sign the token");
 
-    res.cookie('token',token,{httpOnly:false, expires: new Date(Date.now() + 900000)});
+    res.cookie('token', token, { httpOnly: false, expires: new Date(Date.now() + 900000) });
     res.redirect('/redirect');
   } catch (e) {
     res.status(400).json({ msg: e.message });
