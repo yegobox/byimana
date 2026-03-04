@@ -10,7 +10,13 @@
 .academicshero h1 {
   font-weight: 200;
 }
+.streams_col{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
+}
 #Title {
   justify-content: center;
 }

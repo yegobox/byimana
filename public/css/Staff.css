@@ -51,8 +51,8 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.staff-card #DeanDiscipline{
-  background-image: url(../images/Updated-images/10941.JPG);
+.staff-card #Dean{
+  background-image: url(../images/Updated-images/dod_2.jpg);
   background-position: center;
 }
 .staff-card #DeanStudies{
@@ -65,10 +65,10 @@
   background-image: url(../images/sec.jpeg);
 }
 .staff-card #dams{
-  background-image: url(../images/Updated-images/Teachers/DC.jpg);
+  background-image: url(../images/Updated-images/it.jpeg);
 }
 .staff-card #anim1{
-  background-image: url(../images/Updates/Animation/a1.jpg);
+  background-image: url(../images/Updated-images/aime.jpeg);
   background-size: cover;
 }
 .staff-card #anim2{
@@ -78,13 +78,13 @@
   background-repeat: no-repeat;
 }
 .staff-card #anim3{
-  background-image: url(../images/Updates/Animation/a3.jpg);
+  background-image: url(../images/Updated-images/pascal.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% -90px;
+  background-position: 100%;
 }
 .staff-card #anim4{
-  background-image: url(../images/Updates/Animation/a4.jpg);
+  background-image: url(../images/Updated-images/martha.jpeg);
   background-size: cover;
 }
 .EventGrid #StaffEvent1 {
